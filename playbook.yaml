@@ -1,0 +1,11 @@
+- hosts: localhost
+  gather_facts: false
+  tasks:
+    - set_fact:
+        prefixes: "{{ netbox_prefixes | map(attribute='prefix') | list }}"
+
+    - debug:
+        var: prefixes
+
+    - debug:
+        msg: "{{ prefixes | select('network_contains', target) }}"

@@ -1,0 +1,85 @@
+netbox_prefixes:
+  - prefix: 10.0.0.0/19
+    vlan:
+      name: MOC IPMI
+    description: "MOCs main IPMI network"
+  - prefix: 128.52.60.0/22
+    vlan:
+      name: CSAIL 10
+    description: "Public IPs from CSAIL"
+  - prefix: 192.12.185.0/24
+    vlan:
+      name: BU Public
+  - prefix: 129.10.5.0/24
+    vlan:
+      name: NEU Public
+  - prefix: 172.16.0.0/19
+    vlan:
+      name: Foreman
+  - prefix: 172.16.32.0/19
+    vlan:
+      name: Openstack Internal API
+  - prefix: 172.16.64.0/19
+    vlan:
+      name: Openstack Tenant Network
+  - prefix: 172.16.96.0/19
+    vlan:
+      name: HIL Internet
+  - prefix: 192.168.0.0/24
+    vlan:
+      name: oVirt Gluster
+  - prefix: 10.1.0.0/24
+    vlan:
+      name: OCT Switch Management
+  - prefix: 10.253.0.0/23
+    vlan:
+      name: OpenShift NFS
+  - prefix: 10.120.0.0/22
+    vlan:
+      name: NESE
+  - prefix: 192.168.255.0/24
+    vlan:
+      name: ovirt cluster replication
+  - prefix: 192.168.40.0/24
+    vlan:
+      name: Ceph Cluster
+  - prefix: 192.168.0.0/19
+    vlan:
+      name: Ceph Public
+  - prefix: 192.168.32.0/19
+    vlan:
+      name: Research Ceph
+  - prefix: 10.254.0.0/19
+    vlan:
+      name: Stack BMI
+  - prefix: 10.128.0.0/19
+    vlan:
+      name: MaaS Internal Provisioning
+  - prefix: 10.192.0.0/19
+    vlan:
+      name: MaaS Second Nic
+  - prefix: 10.255.0.0/19
+    vlan:
+      name: BMI
+    description: "BMI provisioning"
+  - prefix: 10.2.0.0/19
+    vlan:
+      name: OCT nodes IPMI 1
+  - prefix: 10.3.0.0/19
+    vlan:
+      name: OCT nodes IPMI 2
+  - prefix: 128.31.20.0/22
+    vlan:
+      name: CSAIL 3801
+    description: "Public IPs from CSAIL"
+  - prefix: 128.31.24.0/22
+    vlan:
+      name: CSAIL 3802
+    description: "Public IPs from CSAIL"
+  - prefix: 128.31.28.0/24
+    vlan:
+      name: CSAIL 3803
+    description: "Public IPs from CSAIL"
+  - prefix: 10.1.10.0/23
+    vlan:
+      name: Kumo IPMI
